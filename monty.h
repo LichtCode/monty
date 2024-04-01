@@ -54,9 +54,6 @@ typedef struct instruction_s
 } instruction_t;
 
 
-bus_t bus = {NULL, NULL, NULL, 0};
-
-
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t getstdin(char **lineptr, int file);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
